@@ -224,15 +224,19 @@ MLflow is integrated to:
 
 ### Run MLflow UI
 ```bash
-mlflow ui
-Open in browser:
+mlflow ui 
+
+### Open in browser:
 
 http://127.0.0.1:5000
+`````
 🖥️ Streamlit Application
 Live Deployment
+
 https://patrollq.streamlit.app/
 
 Application Features
+
 Project Overview Dashboard
 
 Exploratory Data Analysis
@@ -248,6 +252,7 @@ t-SNE Visualization
 MLflow Metrics Overview
 
 ▶️ Execution Order (IMPORTANT)
+
 Run the scripts in the following order:
 
 python src/data_ingestion.py
@@ -259,9 +264,12 @@ python src/temporal_clustering.py
 python src/dimensionality_reduction.py
 python src/mlflow_tracking.py
 streamlit run app.py
+
 📦 Installation & Setup
 pip install -r requirements.txt
+
 📈 Expected Outcomes
+
 Successful processing of 500,000 crime records
 
 Identification of crime hotspots and peak crime times
@@ -274,6 +282,7 @@ Production-ready Streamlit Cloud deployment
 
 🧪 Evaluation Metrics
 Technical Performance (70%)
+
 Data preprocessing & sampling
 
 Multiple clustering algorithms
@@ -283,11 +292,13 @@ Dimensionality reduction
 MLflow integration
 
 Application & Deployment (30%)
+
 Streamlit UI and interactivity
 
 Cloud deployment stability
 
 🚀 Future Enhancements
+
 Docker containerization
 
 Real-time crime data ingestion
