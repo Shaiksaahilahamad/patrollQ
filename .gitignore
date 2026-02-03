@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+
+# Data files
+data/raw/
+data/sampled/
+data/processed/
+
+# Outputs
+outputs/
+
+# MLflow
+mlruns/
+
+# OS
+.DS_Store
+Thumbs.db
