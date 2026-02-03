@@ -4,11 +4,7 @@ __pycache__/
 
 # Data files
 data/raw/
-data/sampled/
-data/processed/
 
-# Outputs
-outputs/
 
 # MLflow
 mlruns/
